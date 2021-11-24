@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 
 body {
-    background-image: url("https://github.com/benzonnigggon/bestlifetherapy.github.io/blob/main/assets/img/intro-bg.jpg");
+    background-image: url("../assets/img/intro-bg.jpg");
     color: #444;
     background-attachment: fixed;
     font-family: "Open Sans", sans-serif;
