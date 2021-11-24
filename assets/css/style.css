@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 
 body {
-    background: url(/assets/img/intro-bg.jpg);
+    /* background: url(/assets/img/intro-bg.jpg); */
+    background: linear-gradient(top to bottom, blue, red);
     color: #444;
     background-attachment: fixed;
     font-family: "Open Sans", sans-serif;
