@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Best Life Therapy </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-scrolled d-flex justify-content-center align-items-center  ">
+        <div class="container d-flex  " style="margin: 0 0 0 90px;">
+            <h4 class="logo "><a class="logo-custom " href="index.html">Best Life Therapy</a></h4>
+
+            <nav id="navbar" class="navbar  order-last order-lg-0 of offset-5">
+                <ul>
+                    <li>
+                        <a class="nav-link  scrollto" href="about.html">ABOUT David</a>
+                    </li>
+                    <li class="nav-link scrollto "><a style="text-decoration: none;" href="services.html"><span>SERVICES</span></a>
+                    </li>
+                    <li><a class="nav-link scrollto " href="faq.html">FAQ'S</a></li>
+                    <li><a class="nav-link scrollto " href="contact.html ">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- .navbar -->
+
+        <div class="social-links ">
+            <a href="# " class="twitter "><i class="bi bi-twitter "></i></a>
+            <a href="# " class="facebook "><i class="bi bi-facebook "></i></a>
+            <a href="# " class="instagram "><i class="bi bi-instagram "></i></a>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="clearfix " style="background: url(assets/img/sevice.jpg); background-size: cover;background-attachment: fixed;">
+        <div class=" container d-flex h-100 ">
+            <div class=" row  home justify-content-center align-self-center " data-aos="fade-up ">
+                <div class="col-sm-8 intro-info order-lg-first order-last " data-aos="zoom-in " data-aos-delay="150">
+                    <h2 class="page-title justify-content-center ">Welcome to <br>Best Life Therapy <br>by <br><span>David Parker</span></h2>
+                    <h4 class="quotes ">“ Everything you want to be, you already are. You’re simply on the path to discovering it.”</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+    <?php
+    echo "hellowwrld";
+    ?>
+        <main id="main " class="intro-bg ">
+            <div class="container">
+                <div class="row contact-padding">
+                    <div class="col-lg-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.0436640614209!2d85.31735592919908!3d27.711893186200676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1903ef658599%3A0xaefed5aeabd66193!2sDurbarmarg%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2sin!4v1638858208297!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form">
+                            <h4>Send us a message</h4>
+
+                            <form action="contact.php" method="post">
+                                <div class="form-group mt-3">
+                                    <input type="text" name="name" class="form-control" placeholder="Full name" required />
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="email" name="email" class="form-control" required placeholder="Email " />
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="text" name="mobile" class="form-control" required placeholder="Mobile Number" />
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-group mt-3    ">
+                                    <input type="submit" name="submit" class="form-control btn btn-primary" />
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer" class="">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="footer-links">
+                                <h4>Contact Us</h4>
+                                <p>
+                                    Kings Way <br> Kathmandu,44600<br> Bagmati Province <br>Nepal<br>
+                                    <strong>Phone:</strong> +977 55 257 625<br>
+                                    <strong>Email:</strong> info@example.com<br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">
+                            <div class="footer-links">
+                                <h4>Useful Links</h4>
+                                <ul>
+                                    <li><a href="about.html">About </a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Terms of service</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                </ul>
+                            </div>
+
+
+
+                            <div class="social-links">
+                                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer>
+            <nav class="navbar copy-right">
+                <div class="container ">
+                    <div class="copyright ">
+                        &copy; Copyright <strong>Best Life Therapy</strong>. All Rights Reserved
+                    </div>
+                    <div class="designed">
+                        Designed by: Nigan Byanjankar
+                    </div>
+                </div>
+            </nav>
+        </footer>
+        <!-- End  Footer -->
+
+        <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/aos/aos.js "></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+        <script src="assets/vendor/php-email-form/validate.js "></script>
+        <script src="assets/vendor/purecounter/purecounter.js "></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js "></script>
+
+</body>
+
+</html>
